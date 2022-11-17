@@ -23,7 +23,7 @@ def addTwoNumber(self,value1:Optional[ListNode],value2:Optinoal[ListNode])->: Op
 		sum_fr = sum_fr % 10
 		overhead = sum_fr //10
 
-		summation = ListNode(sum_fr)#adding a node to the linkedlist
+		summation.next = ListNode(sum_fr)#adding a node to the linkedlist
 		summation = summation.next # moving to the poition in the linked list
 
 
