@@ -2,8 +2,7 @@
 #Warning not properly indented
 #Problem: TwoSum
 #Input: A sorted array containing a random input of numbers
-#Output: Indices postion of the numbers that add up to the target
-#idea
+#Output: Indices postion of the numbers that add up to the target idea
 #We can use bruteforce by having two for loops going through the array to get our answer but that is not optimal. So what we are
 #going to do is #loop through the array and add each number to a set. Before we add the number to the set, we check for a difference
 #between our target number and the value in the array. If that difference is in the set, we have found our digits and all we have to do
