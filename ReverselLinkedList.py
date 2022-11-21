@@ -16,8 +16,10 @@ def reverseLinkedList(self,head:Optional[ListNode])->Optional[ListNode]:
 	while head:
 		next = curr.next 
 		curr.next = prev
-		prev = head
-		
+		prev = curr
+		curr = next 
+	return prev
+
 
 
 
